@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Gonzalo Larumbe
-# name: when
-# key: wh
+# name: unless
+# key: ul
 # --
-(when ${1:(cond)}
+(unless ${1:(cond)}
   ($0))
