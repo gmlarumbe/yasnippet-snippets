@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: Gonzalo Larumbe
-# name: when
-# key: wh
+# name: require
+# key: rq
 # --
-(when ${1:(cond)}
-  ($0))
+(require '${1:package})$0

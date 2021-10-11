@@ -2,6 +2,6 @@
 # contributor: Xah Lee (XahLee.org)
 # name: insert
 # key: insert
-# key: i
+# key: is
 # --
 (insert $0)
