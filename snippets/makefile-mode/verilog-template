@@ -14,7 +14,7 @@ IVERILOG_CDIR=${3:iver}
 VVP=${4:vvp}
 VVP_FLAGS=${5:}
 VERILATOR=${6:verilator}
-VERILATOR_FLAGS=${7:--lint-only +1800-2012ext+sv}
+VERILATOR_FLAGS=${7:--lint-only +1800-2012ext+sv --Wno-fatal}
 VIVADO_BIN=${8:/opt/Xilinx/Vivado/2018.3/bin/vivado}
 
 WAVES_FORMAT=${9:lx2}
