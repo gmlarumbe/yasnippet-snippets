@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# key: uo
+# --
+
+class ${1:class_name} extends ${2:uvm_sequence_item};
+    `uvm_object_utils($1)
+
+    $0
+
+    function new(string name="${3:$1}");
+        super.new(name);
+    endfunction : new
+
+endclass: $1
