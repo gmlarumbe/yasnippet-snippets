@@ -2,7 +2,7 @@
 # name: safer bash settings for scripts
 # key: s!
 # --
-#!/usr/bin/env bash
+#!/bin/bash
 set -euo pipefail
 IFS=$'\n\t'
 
