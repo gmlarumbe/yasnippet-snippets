@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# contributor: Xah Lee (XahLee.org)
+# contributor: Gonzalo Larumbe
 # name: mapc
-# key: mapc
+# key: mc
 # --
-(mapc ${1:function} $0)
+(mapc ${1:(lambda (${3:x}) (${4:func)})} ${2:collection})$0
