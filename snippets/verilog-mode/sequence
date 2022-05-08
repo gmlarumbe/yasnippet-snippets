@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# key: sq
+# key: seq
 # --
 
 sequence ${1:s};

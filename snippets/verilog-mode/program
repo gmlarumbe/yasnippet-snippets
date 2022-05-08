@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# key: pg
+# key: pgm
 # --
 
 program automatic ${1:name};

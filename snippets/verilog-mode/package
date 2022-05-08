@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# key: pc
+# key: pkg
 # --
 
 package ${1:package_name};

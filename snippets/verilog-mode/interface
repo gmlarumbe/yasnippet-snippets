@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# key: it
+# key: itf
 # --
 
 interface ${1:name} ${2:# (parameter WIDTH = 0)} (${3:input logic Clk, input logick Rst_n});
